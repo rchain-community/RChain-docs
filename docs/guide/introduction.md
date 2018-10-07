@@ -1,27 +1,116 @@
-# Introduction
+# Copied Vuejs.org page here to try out styling...
 
-## What is Alvalor?
-Alvalor is an attempt to build an **evolutive blockchain ecosystem**. Alvalor is designed from the ground up to be completely modular, to be incredibly adoptable and flexible. The core module is focused only on the transactions layer. Additional functionality (such as privacy features, smart contracting abilities, etc.) are buid on top of that through additional modules.
+### Compatibility Note
 
+Vue does **not** support IE8 and below, because it uses ECMAScript 5 features that are un-shimmable in IE8. However it supports all [ECMAScript 5 compliant browsers](https://caniuse.com/#feat=es5).
 
-## About change
-In a market as young and dynamic as blockchain technology, new innovations are brought into the market every month and technology that looked promising a year ago looks outdated today. 
+### Release Notes
 
-Progress in nature, society and technology has always happened through a mix of cooperation and competition. Open markets, where different parties can interact with a minimal set of rules, often create a fertile ground for innovation. On the other hand, heavily regulated markets often cause a whole industry to stagnate.
+Latest stable version: {{vue_version}}
 
-In the blockchain world major platforms make opinionated design choices and performance trade-offs, leaving the developers and users of their platforms with little choice. Once the platform is chosen, there is something akin to vendor lockin, where they become stuck in a walled garden with predefined rigid rules.
+Detailed release notes for each version are available on [GitHub](https://github.com/vuejs/vue/releases).
 
+::: tip
+This is a tip
+:::
 
-## Less is more
-The more freedom from rules exists, the more areas entities can compete or cooperate on. Competition leads to continuous pressure to provide better value, while cooperation enables a thriving exchange of ideas. Creating the optimal breeding ground for blockchain projects, where projects perish or thrive on purely on their own merit, is our ambition.
+## Vue Devtools
 
+When using Vue, we recommend also installing the [Vue Devtools](https://github.com/vuejs/vue-devtools#vue-devtools) in your browser, allowing you to inspect and debug your Vue applications in a more user-friendly interface.
 
-## What can Alvalor do?
+### CDN
 
-The [core Alvalor library](docs.alvalor.org/core-library) provides a fast and stable transaction layer. On top of this, functionaly is enabled through modular expansion. 
+We recommend linking to a specific version number that you can update manually:
 
-Explore use cases that Alvalor is well-suited to:
+``` html
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+```
 
-- Enabling high-speed, affordable [Microtransactions](docs.alvalor.org/use-cases/microtransactions)
-- Creating simple [Conditional Transactions](docs.alvalor.org/use-cases/B)
-- Privacy and [Private Transactions](docs.alvalor.org/use-cases/C)
+You can browse the source of the NPM package at [cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue/).
+
+Make sure to read about [the different builds of Vue](#Explanation-of-Different-Builds) and use the **production
+ version** in your published site, replacing `vue.js` with `vue.min.js`. This is a smaller build optimized for speed instead of development experience.
+
+## NPM
+
+::: warning
+This is a warning
+:::
+
+NPM is the recommended installation method when building large scale applications with Vue. It pairs nicely with module bundlers such as [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/). Vue also provides accompanying tools for authoring [Single File Components](single-file-components.html).
+
+``` bash
+# latest stable
+$ npm install vue
+```
+
+## CLI
+
+Vue provides an [official CLI](https://github.com/vuejs/vue-cli) for quickly scaffolding ambitious Single Page Applications. It provides batteries-included build setups for a modern frontend workflow. It takes only a few minutes to get up and running with hot-reload, lint-on-save, and production-ready builds. See [the Vue CLI docs](https://cli.vuejs.org) for more details.
+
+<p class="tip">The CLI assumes prior knowledge of Node.js and the associated build tools. If you are new to Vue or front-end build tools, we strongly suggest going through <a href="./">the guide</a> without any build tools before using the CLI.</p>
+
+## Explanation of Different Builds
+
+In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/vue/dist/) you will find many different builds of Vue.js. Here's an overview of the difference between them:
+
+| | UMD | CommonJS | ES Module |
+| --- | --- | --- | --- |
+| **Full** | vue.js | vue.common.js | vue.esm.js |
+| **Runtime-only** | vue.runtime.js | vue.runtime.common.js | vue.runtime.esm.js |
+| **Full (production)** | vue.min.js | - | - |
+| **Runtime-only (production)** | vue.runtime.min.js | - | - |
+
+::: danger
+This is a dangerous warning
+:::
+
+### Terms
+
+- **Full**: builds that contain both the compiler and the runtime.
+
+- **Compiler**: code that is responsible for compiling template strings into JavaScript render functions.
+
+- **Runtime**: code that is responsible for creating Vue instances, rendering and patching virtual DOM, etc. Basically everything minus the compiler.
+
+- **[UMD](https://github.com/umdjs/umd)**: UMD builds can be used directly in the browser via a `<script>` tag. The default file from jsDelivr CDN at [https://cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue) is the Runtime + Compiler UMD build (`vue.js`).
+
+- **[CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1)**: CommonJS builds are intended for use with older bundlers like [browserify](http://browserify.org/) or [webpack 1](https://webpack.github.io). The default file for these bundlers (`pkg.main`) is the Runtime only CommonJS build (`vue.runtime.common.js`).
+
+- **[ES Module](http://exploringjs.com/es6/ch_modules.html)**: ES module builds are intended for use with modern bundlers like [webpack 2](https://webpack.js.org) or [rollup](https://rollupjs.org/). The default file for these bundlers (`pkg.module`) is the Runtime only ES Module build (`vue.runtime.esm.js`).
+
+### Runtime + Compiler vs. Runtime-only
+
+If you need to compile templates on the client (e.g. passing a string to the `template` option, or mounting to an element using its in-DOM HTML as the template), you will need the compiler and thus the full build:
+
+``` js
+// this requires the compiler
+new Vue({
+  template: '<div>{{ hi }}</div>'
+})
+
+// this does not
+new Vue({
+  render (h) {
+    return h('div', this.hi)
+  }
+})
+```
+
+When using `vue-loader` or `vueify`, templates inside `*.vue` files are pre-compiled into JavaScript at build time. You don't really need the compiler in the final bundle, and can therefore use the runtime-only build.
+
+Since the runtime-only builds are roughly 30% lighter-weight than their full-build counterparts, you should use it whenever you can. If you still wish to use the full build instead, you need to configure an alias in your bundler:
+
+#### Webpack
+
+``` js
+module.exports = {
+  // ...
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
+    }
+  }
+}
+```
+

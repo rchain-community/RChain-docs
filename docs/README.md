@@ -1,4 +1,4 @@
-# Alvalor
+# An introduction to these docs
 
 Welcome to the Alvalor documentation.
 

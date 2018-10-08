@@ -75,8 +75,79 @@ module.exports = {
         ],
       },
     ],
-    sidebar: [
-      "/guide/archdoc/introduction",
-    ],
+
+
+
+    sidebar: { 
+      // Defines "sidebar for the /guide/ section"
+      '/guide/': [   
+        ['/guide/introduction.md', 'Introduction'],
+        '/guide/rho-revolution.md',
+        {
+          title: 'Features',
+          collapsable: false,
+          children: [ 
+            '/guide/platform/scalability.md',
+            '/guide/platform/efficiency.md',
+            '/guide/platform/dependability.md',
+            '/guide/platform/decentralisation.md',
+          ],
+        },
+        {
+          title: 'Architecture',
+          collapsable: false,
+          children: [ 
+            '/guide/archdoc/introduction.md',
+          ],
+        },
+      ],
+
+
+      // '/rholang/': [   // Defines "sidebar for the /Rholang/ section"
+      //   ['/guide/introduction.md', 'Introduction'],
+      //   '/guide/rho-revolution.md',
+      //   {
+      //     title: 'Features',
+      //     collapsable: false,
+      //     children: [ 
+      //       '/guide/platform/scalability.md',
+      //       '/guide/platform/efficiency.md',
+      //       '/guide/platform/dependability.md',
+      //       '/guide/platform/decentralisation.md',
+      //     ],
+      //   },
+      //   {
+      //     title: 'Architecture',
+      //     collapsable: false,
+      //     children: [ 
+      //       '/guide/archdoc/introduction.md',
+      //     ],
+      //   },
+      // ],
+
+
+      // Fallback Sidebar (same as Guide)
+      '/': [
+        ['/guide/introduction.md', 'Introduction'],
+        '/guide/rho-revolution.md',
+        {
+          title: 'Features',
+          collapsable: false,
+          children: [ 
+            '/guide/platform/scalability.md',
+            '/guide/platform/efficiency.md',
+            '/guide/platform/dependability.md',
+            '/guide/platform/decentralisation.md',
+          ],
+        },
+        {
+          title: 'Architecture',
+          collapsable: false,
+          children: [ 
+            '/guide/archdoc/introduction.md',
+          ],
+        },
+      ],
+    },
   },
 };

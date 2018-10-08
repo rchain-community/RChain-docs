@@ -61,9 +61,7 @@ In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/vue/d
 | **Full (production)** | vue.min.js | - | - |
 | **Runtime-only (production)** | vue.runtime.min.js | - | - |
 
-::: danger
-This is a dangerous warning
-:::
+
 
 ### Terms
 

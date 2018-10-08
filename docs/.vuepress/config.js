@@ -10,8 +10,8 @@ module.exports = {
       items: [
           { text: "Introduction", link: "/guide/introduction.md" },
           { text: "The Rho [R]evolution", link: "/guide/rho-revolution.md" },
-          { text: "Platform Features", link: "/guide/platform/scalability.md" },
-          { text: "ArchDoc", link: "/guide/archdoc/introduction.md" },
+          { text: "Features", link: "/guide/platform/scalability.md" },
+          { text: "Platform Architecture", link: "/guide/archdoc/introduction.md" },
           { text: "Research", link: "/guide/research.md" },
         ],
       },
@@ -76,42 +76,7 @@ module.exports = {
       },
     ],
     sidebar: [
-      "/introduction",
-      "/roadmap",
-      {
-        title: "Philosophy",
-        children: [
-          "/philosophy/minimalism",
-          "/philosophy/adaptability",
-          "/philosophy/evolution",
-        ],
-      },
-      // {
-      //   title: "Technology",
-      //   children: [
-      //     "/technology/baselayer",
-      //     "/technology/secondlayer",
-      //     "/technology/crosschain",
-      //   ]
-      // },
-      // {
-      //   title: "Components",
-      //   children: [
-      //     "/components/microtransactions",
-      //     "/components/conditional",
-      //     "/components/tokenization",
-      //   ]
-      // },
-      // {
-      //   title: "Research",
-      //   collapsable: true,
-      //   children: [
-      //     "/research/blockparams",
-      //     "/research/difficulty",
-      //     "/research/engine",
-      //     "/research/chainlinks",
-      //   ]
-      // },
+      "/guide/archdoc/introduction",
     ],
   },
 };

@@ -89,7 +89,7 @@ Observe, however, that URL paths do not always compose. Take `scheme://a/b/c` 
 
 [![../_images/namespaces-as-tree-paths.png](https://rchain-architecture.readthedocs.io/en/latest/_images/namespaces-as-tree-paths.png)](https://rchain-architecture.readthedocs.io/en/latest/_images/namespaces-as-tree-paths.png)
 
-Figure - Composable Tree Paths
+_Figure - Composable Tree Paths_
 
 Above, unification works as a natural algorithm for matching and decomposing trees, and unification-based matching and decomposition provides the basis of query. To explore this claim let us rewrite our path/tree syntax in this form:
 
@@ -107,7 +107,7 @@ The top expression denotes output - place the resource address `a(b(c,d)` at t
 
 [![../_images/namespaces-as-trees.png](https://rchain-architecture.readthedocs.io/en/latest/_images/namespaces-as-trees.png)](https://rchain-architecture.readthedocs.io/en/latest/_images/namespaces-as-trees.png)
 
-Figure - URL Scheme as Nested Channels in Tree Structure
+_Figure - URL Scheme as Nested Channels in Tree Structure_
 
 Given an existing address structure, and namespace access, a client may query for and send to names within that address structure. For example, when the rho-calculus I/O processes are placed in concurrent execution, the following expression denotes a function that places the quoted processes, `(@Q,@R)` at the location, `a(b(c,d))`:
 
@@ -123,7 +123,7 @@ That is, `P` is executed in an environment in which `c` is substituted for 
 
 [![../_images/tree-structure-substituted.png](https://rchain-architecture.readthedocs.io/en/latest/_images/tree-structure-substituted.png)](https://rchain-architecture.readthedocs.io/en/latest/_images/tree-structure-substituted.png)
 
-Figure - Placing Processes at Channels
+_Figure - Placing Processes at Channels_
 
 In addition to a flat set of channels e.g `s1...sn` qualifying as a namespace, every channel with internal structure is, in itself, a namespace. Therefore, `s`, `a`, and `b` may incrementally impose individual namespace definitions analogous to those given by a flat namespace. In practice, the internal structure of a named channel is an n-ary tree of arbitrary depth and complexity where the “top” channel, in this case `s`, is but one of many possible names in `s1...sn` that possess internal structure.
 

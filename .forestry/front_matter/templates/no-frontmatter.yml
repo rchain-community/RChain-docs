@@ -4,4 +4,5 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- docs/guide/archdoc/motivation.md
 - docs/rholang/rholang-with-kyle.md

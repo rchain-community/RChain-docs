@@ -4,6 +4,7 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- docs/guide/archdoc/node-and-blockchain-semantics.md
 - docs/guide/archdoc/architecture-overview.md
 - docs/guide/archdoc/comparison-of-blockchains.md
 - docs/guide/archdoc/motivation.md

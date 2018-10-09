@@ -4,6 +4,7 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- docs/guide/archdoc/references.md
 - docs/guide/archdoc/applications.md
 - docs/guide/archdoc/casper-consensus-algorithm.md
 - docs/guide/archdoc/storage-and-query.md

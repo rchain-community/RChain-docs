@@ -1,6 +1,9 @@
++++
+
++++
 # Copied Vuejs.org page here to try out styling...
 
-### Compatibility Note
+### Hey Kyle
 
 Vue does **not** support IE8 and below, because it uses ECMAScript 5 features that are un-shimmable in IE8. However it supports all [ECMAScript 5 compliant browsers](https://caniuse.com/#feat=es5).
 
@@ -29,7 +32,7 @@ We recommend linking to a specific version number that you can update manually:
 You can browse the source of the NPM package at [cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue/).
 
 Make sure to read about [the different builds of Vue](#Explanation-of-Different-Builds) and use the **production
- version** in your published site, replacing `vue.js` with `vue.min.js`. This is a smaller build optimized for speed instead of development experience.
+version** in your published site, replacing `vue.js` with `vue.min.js`. This is a smaller build optimized for speed instead of development experience.
 
 ## NPM
 
@@ -52,30 +55,23 @@ Vue provides an [official CLI](https://github.com/vuejs/vue-cli) for quickly sca
 
 ## Explanation of Different Builds
 
-In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/vue/dist/) you will find many different builds of Vue.js. Here's an overview of the difference between them:
+In the `[dist/](https://cdn.jsdelivr.net/npm/vue/dist/)`[ directory of the NPM package](https://cdn.jsdelivr.net/npm/vue/dist/) you will find many different builds of Vue.js. Here's an overview of the difference between them:
 
-| | UMD | CommonJS | ES Module |
+|  | UMD | CommonJS | ES Module |
 | --- | --- | --- | --- |
-| **Full** | vue.js | vue.common.js | vue.esm.js |
-| **Runtime-only** | vue.runtime.js | vue.runtime.common.js | vue.runtime.esm.js |
-| **Full (production)** | vue.min.js | - | - |
-| **Runtime-only (production)** | vue.runtime.min.js | - | - |
-
-
+| Full | vue.js | vue.common.js | vue.esm.js |
+| Runtime-only | vue.runtime.js | vue.runtime.common.js | vue.runtime.esm.js |
+| Full (production) | vue.min.js | - | - |
+| Runtime-only (production) | vue.runtime.min.js | - | - |
 
 ### Terms
 
-- **Full**: builds that contain both the compiler and the runtime.
-
-- **Compiler**: code that is responsible for compiling template strings into JavaScript render functions.
-
-- **Runtime**: code that is responsible for creating Vue instances, rendering and patching virtual DOM, etc. Basically everything minus the compiler.
-
-- **[UMD](https://github.com/umdjs/umd)**: UMD builds can be used directly in the browser via a `<script>` tag. The default file from jsDelivr CDN at [https://cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue) is the Runtime + Compiler UMD build (`vue.js`).
-
-- **[CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1)**: CommonJS builds are intended for use with older bundlers like [browserify](http://browserify.org/) or [webpack 1](https://webpack.github.io). The default file for these bundlers (`pkg.main`) is the Runtime only CommonJS build (`vue.runtime.common.js`).
-
-- **[ES Module](http://exploringjs.com/es6/ch_modules.html)**: ES module builds are intended for use with modern bundlers like [webpack 2](https://webpack.js.org) or [rollup](https://rollupjs.org/). The default file for these bundlers (`pkg.module`) is the Runtime only ES Module build (`vue.runtime.esm.js`).
+* **Full**: builds that contain both the compiler and the runtime.
+* **Compiler**: code that is responsible for compiling template strings into JavaScript render functions.
+* **Runtime**: code that is responsible for creating Vue instances, rendering and patching virtual DOM, etc. Basically everything minus the compiler.
+* [**UMD**](https://github.com/umdjs/umd): UMD builds can be used directly in the browser via a `<script>` tag. The default file from jsDelivr CDN at [https://cdn.jsdelivr.net/npm/vue](https://cdn.jsdelivr.net/npm/vue) is the Runtime + Compiler UMD build (`vue.js`).
+* [**CommonJS**](http://wiki.commonjs.org/wiki/Modules/1.1): CommonJS builds are intended for use with older bundlers like [browserify](http://browserify.org/) or [webpack 1](https://webpack.github.io). The default file for these bundlers (`pkg.main`) is the Runtime only CommonJS build (`vue.runtime.common.js`).
+* [**ES Module**](http://exploringjs.com/es6/ch_modules.html): ES module builds are intended for use with modern bundlers like [webpack 2](https://webpack.js.org) or [rollup](https://rollupjs.org/). The default file for these bundlers (`pkg.module`) is the Runtime only ES Module build (`vue.runtime.esm.js`).
 
 ### Runtime + Compiler vs. Runtime-only
 
@@ -111,4 +107,3 @@ module.exports = {
   }
 }
 ```
-

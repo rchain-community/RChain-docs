@@ -7,7 +7,7 @@ The open-source RChain project is building a _decentralized, economic, censorsh
 
 Using smart contracts, a broad array of fully-scalable decentralized applications (dApps) can be built on the top of this platform. DApps may address areas such as identity, tokens, timestamping, financial services, monetized content delivery, Decentralized Autonomous Organizations (DAOs), exchanges, reputation, private social networks, marketplaces, and many more.
 
-\[Figure 1\]
+![../_images/architecture-overview.png](https://rchain-architecture.readthedocs.io/en/latest/_images/architecture-overview.png)
 
 Figure: High-level RChain Architecture
 

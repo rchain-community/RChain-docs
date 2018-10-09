@@ -4,6 +4,7 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
+- docs/guide/archdoc/casper-consensus-algorithm.md
 - docs/guide/archdoc/storage-and-query.md
 - docs/guide/archdoc/execution-model.md
 - docs/guide/archdoc/namespace-logic.md

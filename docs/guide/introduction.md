@@ -1,7 +1,4 @@
-+++
-
-+++
-# Copied Vuejs.org page here to try out styling...
+# This page is used to try out styling
 
 ### Hey Kyle
 
@@ -40,7 +37,7 @@ version** in your published site, replacing `vue.js` with `vue.min.js`. This is 
 This is a warning
 :::
 
-NPM is the recommended installation method when building large scale applications with Vue. It pairs nicely with module bundlers such as [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/). Vue also provides accompanying tools for authoring [Single File Components](single-file-components.html).
+NPM is the recommended installation method when building large scale applications with Vue. It pairs nicely with module bundlers such as [Webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/). Vue also provides accompanying tools for authoring [Single File Components](/).
 
 ``` bash
 # latest stable

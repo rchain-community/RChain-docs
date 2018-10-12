@@ -1,13 +1,10 @@
-+++
-
-+++
 # Archdoc Introduction
 
 The open-source RChain project is building a _decentralized, economic, censorship-resistant, public compute infrastructure and blockchain_. It will host and execute programs popularly referred to as "smart contracts". It will be trustworthy, scalable, concurrent, with proof-of-stake consensus and content delivery.
 
 Using smart contracts, a broad array of fully-scalable decentralized applications (dApps) can be built on the top of this platform. DApps may address areas such as identity, tokens, timestamping, financial services, monetized content delivery, Decentralized Autonomous Organizations (DAOs), exchanges, reputation, private social networks, marketplaces, and many more.
 
-![../_images/architecture-overview.png](https://rchain-architecture.readthedocs.io/en/latest/_images/architecture-overview.png)
+![https://rchain-architecture.readthedocs.io/en/latest/_images/architecture-overview.png](https://rchain-architecture.readthedocs.io/en/latest/_images/architecture-overview.png)
 
 Figure: High-level RChain Architecture
 

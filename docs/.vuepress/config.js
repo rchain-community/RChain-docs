@@ -10,7 +10,7 @@ module.exports = {
       items: [
           { text: "Overview", link: "/platform/introduction.md" },
           { text: "Rho [R]evolution", link: "/platform/rho-revolution.md" },
-          { text: "Features", link: "/platform/platform/scalability.md" },
+          { text: "Features", link: "/platform/features/scalability.md" },
           { text: "Platform Architecture", link: "/platform/archdoc/introduction.md" },
           { text: "Research", link: "/platform/research.md" },
         ],
@@ -89,10 +89,10 @@ module.exports = {
           title: 'Features',
           collapsable: false,
           children: [ 
-            '/platform/platform/scalability.md',
-            '/platform/platform/efficiency.md',
-            '/platform/platform/dependability.md',
-            '/platform/platform/decentralisation.md',
+            '/platform/features/scalability.md',
+            '/platform/features/efficiency.md',
+            '/platform/features/dependability.md',
+            '/platform/features/decentralisation.md',
           ],
         },
         {
@@ -147,10 +147,10 @@ module.exports = {
           title: 'Features',
           collapsable: false,
           children: [ 
-            '/platform/platform/scalability.md',
-            '/platform/platform/efficiency.md',
-            '/platform/platform/dependability.md',
-            '/platform/platform/decentralisation.md',
+            '/platform/features/scalability.md',
+            '/platform/features/efficiency.md',
+            '/platform/features/dependability.md',
+            '/platform/features/decentralisation.md',
           ],
         },
         {

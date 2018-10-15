@@ -6,13 +6,13 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: "Guide", 
+      { text: "Platform", 
       items: [
-          { text: "Introduction", link: "/guide/introduction.md" },
-          { text: "The Rho [R]evolution", link: "/guide/rho-revolution.md" },
-          { text: "Features", link: "/guide/platform/scalability.md" },
-          { text: "Platform Architecture", link: "/guide/archdoc/introduction.md" },
-          { text: "Research", link: "/guide/research.md" },
+          { text: "Overview", link: "/platform/introduction.md" },
+          { text: "Rho [R]evolution", link: "/platform/rho-revolution.md" },
+          { text: "Features", link: "/platform/platform/scalability.md" },
+          { text: "Platform Architecture", link: "/platform/archdoc/introduction.md" },
+          { text: "Research", link: "/platform/research.md" },
         ],
       },
       { text: "Rholang", link: "/rholang/overview.md" },
@@ -81,94 +81,94 @@ module.exports = {
 
 
     sidebar: { 
-      // Defines "sidebar for the /guide/ section"
-      '/guide/': [   
-        ['/guide/introduction.md', 'Introduction'],
-        '/guide/rho-revolution.md',
+      // Defines "sidebar for the /platform/ section"
+      '/platform/': [   
+        ['/platform/introduction.md', 'Introduction'],
+        '/platform/rho-revolution.md',
         {
           title: 'Features',
           collapsable: false,
           children: [ 
-            '/guide/platform/scalability.md',
-            '/guide/platform/efficiency.md',
-            '/guide/platform/dependability.md',
-            '/guide/platform/decentralisation.md',
+            '/platform/platform/scalability.md',
+            '/platform/platform/efficiency.md',
+            '/platform/platform/dependability.md',
+            '/platform/platform/decentralisation.md',
           ],
         },
         {
           title: 'Architecture',
           collapsable: false,
           children: [ 
-            '/guide/archdoc/motivation.md',
-            '/guide/archdoc/introduction.md',
-            '/guide/archdoc/comparison-of-blockchains.md',
-            '/guide/archdoc/architecture-overview.md',
-            '/guide/archdoc/node-and-blockchain-semantics.md',
-            '/guide/archdoc/contract-design.md',
-            '/guide/archdoc/namespace-logic.md',
-            '/guide/archdoc/execution-model.md',
-            '/guide/archdoc/storage-and-query.md',
-            '/guide/archdoc/casper-consensus-algorithm.md',
-            '/guide/archdoc/applications.md',
-            '/guide/archdoc/references.md',
+            '/platform/archdoc/motivation.md',
+            '/platform/archdoc/introduction.md',
+            '/platform/archdoc/comparison-of-blockchains.md',
+            '/platform/archdoc/architecture-overview.md',
+            '/platform/archdoc/node-and-blockchain-semantics.md',
+            '/platform/archdoc/contract-design.md',
+            '/platform/archdoc/namespace-logic.md',
+            '/platform/archdoc/execution-model.md',
+            '/platform/archdoc/storage-and-query.md',
+            '/platform/archdoc/casper-consensus-algorithm.md',
+            '/platform/archdoc/applications.md',
+            '/platform/archdoc/references.md',
           ],
         },
       ],
 
 
       // '/rholang/': [   // Defines "sidebar for the /Rholang/ section"
-      //   ['/guide/introduction.md', 'Introduction'],
-      //   '/guide/rho-revolution.md',
+      //   ['/platform/introduction.md', 'Introduction'],
+      //   '/platform/rho-revolution.md',
       //   {
       //     title: 'Features',
       //     collapsable: false,
       //     children: [ 
-      //       '/guide/platform/scalability.md',
-      //       '/guide/platform/efficiency.md',
-      //       '/guide/platform/dependability.md',
-      //       '/guide/platform/decentralisation.md',
+      //       '/platform/platform/scalability.md',
+      //       '/platform/platform/efficiency.md',
+      //       '/platform/platform/dependability.md',
+      //       '/platform/platform/decentralisation.md',
       //     ],
       //   },
       //   {
       //     title: 'Architecture',
       //     collapsable: false,
       //     children: [ 
-      //       '/guide/archdoc/introduction.md',
+      //       '/platform/archdoc/introduction.md',
       //     ],
       //   },
       // ],
 
 
-      // Fallback Sidebar (same as Guide)
+      // Fallback Sidebar (same as platform)
       '/': [
-        ['/guide/introduction.md', 'Introduction'],
-        '/guide/rho-revolution.md',
+        ['/platform/introduction.md', 'Introduction'],
+        '/platform/rho-revolution.md',
         {
           title: 'Features',
           collapsable: false,
           children: [ 
-            '/guide/platform/scalability.md',
-            '/guide/platform/efficiency.md',
-            '/guide/platform/dependability.md',
-            '/guide/platform/decentralisation.md',
+            '/platform/platform/scalability.md',
+            '/platform/platform/efficiency.md',
+            '/platform/platform/dependability.md',
+            '/platform/platform/decentralisation.md',
           ],
         },
         {
           title: 'Architecture',
           collapsable: false,
           children: [ 
-            '/guide/archdoc/motivation.md',
-            '/guide/archdoc/introduction.md',
-            '/guide/archdoc/comparison-of-blockchains.md',
-            '/guide/archdoc/architecture-overview.md',
-            '/guide/archdoc/node-and-blockchain-semantics.md',
-            '/guide/archdoc/contract-design.md',
-            '/guide/archdoc/namespace-logic.md',
-            '/guide/archdoc/execution-model.md',
-            '/guide/archdoc/storage-and-query.md',
-            '/guide/archdoc/casper-consensus-algorithm.md',
-            '/guide/archdoc/applications.md',
-            '/guide/archdoc/references.md',
+            '/platform/archdoc/motivation.md',
+            '/platform/archdoc/introduction.md',
+            '/platform/archdoc/comparison-of-blockchains.md',
+            '/platform/archdoc/architecture-overview.md',
+            '/platform/archdoc/node-and-blockchain-semantics.md',
+            '/platform/archdoc/contract-design.md',
+            '/platform/archdoc/namespace-logic.md',
+            '/platform/archdoc/execution-model.md',
+            '/platform/archdoc/storage-and-query.md',
+            '/platform/archdoc/casper-consensus-algorithm.md',
+            '/platform/archdoc/applications.md',
+            '/platform/archdoc/references.md',
           ],
         },
       ],

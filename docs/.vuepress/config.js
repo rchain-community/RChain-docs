@@ -9,7 +9,7 @@ module.exports = {
       { text: "Platform", 
       items: [
           { text: "Overview", link: "/platform/introduction.md" },
-          { text: "Rho [R]evolution", link: "/platform/rho-revolution.md" },
+          { text: "Rholang", link: "/platform/rho-revolution.md" },
           { text: "Features", link: "/platform/features/scalability.md" },
           { text: "Platform Architecture", link: "/platform/archdoc/introduction.md" },
           { text: "Research", link: "/platform/research.md" },
@@ -113,6 +113,7 @@ module.exports = {
             '/platform/archdoc/references.md',
           ],
         },
+        '/platform/research',
       ],
 
 

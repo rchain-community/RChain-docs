@@ -31,7 +31,7 @@ module.exports = {
             { text: "RChain Coop", link: "/ecosystem/rchain-coop.md" },
             { text: "Token Economics", link: "/ecosystem/token-economics.md" },
             { text: "Team", link: "/ecosystem/team.md" },
-            { text: "RHOC/REV swap", link: "https://developer.rchain.coop/token-swap" },
+            { text: "RHOC/REV swap", link: "/ecosystem/rhoc-rev-swap.md" },
           ]},
           { text: 'Community', items: [
             { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },

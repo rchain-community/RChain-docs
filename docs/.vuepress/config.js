@@ -4,6 +4,17 @@ module.exports = {
   markdown: {
     anchor: { permalink: false },
   },
+
+  // Insert stuff in global <head>. More info: https://vuepress.vuejs.org/config/#title
+  head: [
+    ['link', { rel: 'icon', href: 'https://www.rchain.coop/assets/favicon-red.png' }],
+  ],
+
+
+
+
+
+
   themeConfig: {
     nav: [
       { text: "Platform", 

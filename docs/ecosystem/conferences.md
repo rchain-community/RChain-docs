@@ -1,1 +1,58 @@
 # Conferences & Meetups
+
+## RCon Conference
+Twice a year, the entire RChain ecosystem comes together for a big, global meetup called the RCon. 
+
+::: tip Previous RCons
+Looking for the slides or presentations from a previous RCon? 
+Find here an [index of all previous RCons](/ecosystem/conferences).
+:::
+
+### RCon4 (March 2019)
+The next upcoming RCon will be held in the 2nd half of March 2019, somewhere in the United States. Local and speakers are still to be announced.
+
+The RCon is organised by our development partner Pyrofex.
+
+For more information, contact **Kelly Foster** at Pyrofex.
+
+
+
+
+## Local meetups
+RChain members often meet up in a local setting. Below, find an index of meetups. 
+
+::: warning Meetups Discord Channel
+The main community channel for RChain is [our Discord server](https://discordapp.com/invite/fvY8qhx). Find or announce your local meetup in the #meetup channel.
+::: 
+
+#### North America
+
+- Boston
+- Boulder
+- Chicago
+- Los Angeles
+- New York City
+- San Francisco
+- Seattle
+- Tampa Bay
+
+
+#### Europe
+- Amsterdam
+- Berlin
+- London
+- Moscow
+
+
+
+#### Asia
+- Bangkok
+- Beijing
+- Hong Kong
+- Seoul
+- Singapore
+- Tokyo
+
+
+### Africa
+- Nigeria

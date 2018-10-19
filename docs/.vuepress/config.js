@@ -53,9 +53,9 @@ module.exports = {
             { text: "Jobs", link: "/ecosystem/jobs.md" },
           ]},
           { text: 'Partners', items: [
-            { text: "Pyrofex", link: "/API-reference/rnode.md" },
+            { text: "Pyrofex", link: "https://pyrofex.net" },
             { text: "Pithia", link: "/API-reference/rspace.md" },
-            { text: "Reflective", link: "/API-reference/casper-pos.md" },
+            { text: "Reflective", link: "https://www.reflectiveventures.io/" },
             { text: "DApps portfolio", link: "https://www.rchain.coop/portfolio" },  // This one 
             // { text: "RCHain 'State of the DApps'", link: "/ecosystem/state-of-the-dapps.md" },
           ]},

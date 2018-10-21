@@ -50,7 +50,7 @@ module.exports = {
           { text: 'Tooling', items: [
             { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
             { text: "RChain.cloud", link: "https://rchain.cloud/" },
-            { text: "Wallets", link: "/" },
+            { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },
             { text: "Block Explorers", link: "/" },
           ]},
           { text: 'News', items: [

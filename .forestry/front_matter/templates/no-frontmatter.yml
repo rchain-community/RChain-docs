@@ -4,15 +4,16 @@ hide_body: false
 is_partial: false
 fields: []
 pages:
-- docs/platform/archdoc/references.md
-- docs/platform/archdoc/applications.md
-- docs/platform/archdoc/casper-consensus-algorithm.md
-- docs/platform/archdoc/storage-and-query.md
-- docs/platform/archdoc/execution-model.md
-- docs/platform/archdoc/namespace-logic.md
-- docs/platform/archdoc/contract-design.md
-- docs/platform/archdoc/node-and-blockchain-semantics.md
-- docs/platform/archdoc/architecture-overview.md
-- docs/platform/archdoc/comparison-of-blockchains.md
+- docs/.vuepress/tinkering.md
 - docs/platform/archdoc/motivation.md
+- docs/platform/archdoc/comparison-of-blockchains.md
+- docs/platform/archdoc/architecture-overview.md
+- docs/platform/archdoc/node-and-blockchain-semantics.md
+- docs/platform/archdoc/contract-design.md
+- docs/platform/archdoc/namespace-logic.md
+- docs/platform/archdoc/execution-model.md
+- docs/platform/archdoc/storage-and-query.md
+- docs/platform/archdoc/casper-consensus-algorithm.md
+- docs/platform/archdoc/applications.md
+- docs/platform/archdoc/references.md
 - docs/rholang/rholang-with-kyle.md

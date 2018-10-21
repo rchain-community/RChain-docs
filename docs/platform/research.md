@@ -18,5 +18,6 @@ Those unfamiliar with the π-calculus are strongly encouraged to explore it. The
 ### Casper CBC
 Casper is a family of Proof of Stake consensus protocols, developed primarily by Vlad Zamfir
 
+- [A Template for Correct-by-Construction Consensus Protocols](https://github.com/ethereum/research/blob/master/papers/cbc-consensus/AbstractCBC.pdf) –by Vlad Zamfir
 - [Casper the Friendly Ghost](https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf) –by Vlad Zamfir
 - [The History of Casper (Medium series)](https://medium.com/@Vlad_Zamfir/the-history-of-casper-part-1-59233819c9a9) —by Vlad Zamfir

@@ -17,12 +17,14 @@ module.exports = {
       { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Events", link: "/ecosystem/conferences.md" },
       { text: 'Community', items: [
+        { text: 'Cooperative', link: 'ecosystem/rchain-coop.md' },
+        { text: 'Portfolio', link: 'ecosystem/portfolio.md' },
+        { text: "Developer Bounties**", link: "/ecosystem/bounty-system.md" },
         { text: "YouTube", link: "https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w" },
         { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
         { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
         { text: "Telegram", link: "https://t.me/rchain_coop" },
         { text: "Github", link: "https://github.com/rchain/" },
-        { text: "Bounty Program", link: "/ecosystem/bounty-system.md" },
       ]},
       { text: "About",
        items: [

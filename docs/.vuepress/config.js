@@ -26,6 +26,7 @@ module.exports = {
       ]},
       { text: "About",
        items: [
+         { text: 'What is RChain?', link: 'introduction' },
          { text: "Privacy Policy", link: "https://github.com/rchain/legaldocs/blob/master/Form%20of%20Privacy%20Policy.pdf" }
          ],
       },
@@ -80,10 +81,10 @@ module.exports = {
 
 
     sidebar: [
+      'introduction',
       { title: "Technology Platform",
         collapsable: false,
         children: [
-          'platform/',
           'platform/examples',
           'platform/ladl',
           'platform/rho-revolution',

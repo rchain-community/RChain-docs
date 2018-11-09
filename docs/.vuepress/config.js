@@ -12,10 +12,14 @@ module.exports = {
 
   themeConfig: {
     nav: [
-      { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Roadmap", link: "/ecosystem/roadmap.md" },
+      { text: "Team", link: "/ecosystem/team.md" },
+      { text: "Blog", link: "https://www.rchain.coop/blog" },
+      { text: "Events", link: "/ecosystem/conferences.md" },
       { text: 'Community', items: [
+        { text: "YouTube", link: "https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w" },
         { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
+        { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
         { text: "Telegram", link: "https://t.me/rchain_coop" },
         { text: "Github", link: "https://github.com/rchain/" },
         { text: "Bounty Program", link: "/ecosystem/bounty-system.md" },
@@ -27,16 +31,13 @@ module.exports = {
       },
     ],
 
-
-
-    sidebar: { 
-/*
+    sidebar: {
+      /*
       { text: "Platform", 
       items: [
           { text: "Overview", link: "/platform/introduction.md" },
           { text: "Rholang", link: "/platform/rho-revolution.md" },
           { text: "Features", link: "/platform/features/scalability.md" },
-          { text: "Platform Architecture", link: "/platform/archdoc/introduction.md" },
           { text: "Research", link: "/platform/research.md" },
         ],
       },
@@ -53,20 +54,13 @@ module.exports = {
         items: [
           { text: 'Governance', items: [
             { text: "Philosophy", link: "/ecosystem/philosophy.md" },
-            { text: "RChain Coop", link: "/ecosystem/rchain-coop.md" },
             { text: "Token Economics", link: "/ecosystem/token-economics.md" },
-            { text: "Team", link: "/ecosystem/team.md" },
-            { text: "RHOC/REV swap", link: "/ecosystem/rhoc-rev-swap.md" },
           ]},
           { text: 'Tooling', items: [
-            { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
-            { text: "RChain.cloud", link: "https://rchain.cloud/" },
-            { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },
             { text: "Block Explorers", link: "/" },
           ]},
           { text: 'News', items: [
             { text: "Weekly News", link: "/API-reference/rnode.md" },
-            { text: "Conferences & Meetups", link: "/ecosystem/conferences.md" },
             { text: "Jobs", link: "/ecosystem/jobs.md" },
           ]},
           { text: 'Partners', items: [
@@ -78,15 +72,6 @@ module.exports = {
           ]},
         ],
       },
-      { text: "Getting Started",
-        items: [
-          { text: "Validators", link: "/API-reference/rnode.md" },
-          { text: "Learn Rholang", link: "/API-reference/rspace.md" },
-          { text: "Build DApps on RChain", link: "/API-reference/casper-pos.md" },
-          { text: "Buy & Sell REV", link: "/API-reference/ladl.md" },
-          { text: "Become a member", link: "/API-reference/ladl.md" },
-        ],
-      },
       { text: "Translations",
         items: [
           { text: "English", link: "/" },
@@ -96,6 +81,7 @@ module.exports = {
 */
        
       // Defines "sidebar for the /platform/ section"
+        /*
       '/platform/': [   
         ['/platform/introduction.md', 'Introduction'],
         '/platform/rho-revolution.md',
@@ -129,6 +115,7 @@ module.exports = {
         },
         '/platform/research',
       ],
+      */
 
 
       // '/rholang/': [   // Defines "sidebar for the /Rholang/ section"
@@ -154,37 +141,41 @@ module.exports = {
       // ],
 
 
-      // Fallback Sidebar (same as platform)
+      // Root / Fallback Sidebar
       '/': [
-        ['/platform/introduction.md', 'Introduction'],
-        '/platform/rho-revolution.md',
-        {
-          title: 'Features',
-          collapsable: false,
-          children: [ 
-            '/platform/features/scalability.md',
-            '/platform/features/efficiency.md',
-            '/platform/features/dependability.md',
-            '/platform/features/decentralisation.md',
-          ],
+        { text: "Developers",
+            items: [
+              { text: "Build dApps on RChain", link: "/API-reference/casper-pos.md" },
+              /*
+              { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
+              { text: "RChain.cloud", link: "https://rchain.cloud/" },
+              { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },
+              */
+              { text: "Learn Rholang", link: "https://www.rchain.coop/learn-rholang" },
+              { text: "Platform Architecture", link: "https://rchain-architecture.readthedocs.io/en/latest/" },
+              { text: "Platform Development (github)", link: "https://github.com/rchain/rchain/" },
+            ],
+          },
+        { text: "Node Operators (Validators)",
+         items: [
+           { text: "RNode User Guide",
+            link: "https://rchain.atlassian.net/wiki/spaces/CORE/pages/428376065/User+guide+for+running+RNode" } 
+           /* TODO: weekly testing */
+           ],
         },
-        {
-          title: 'Architecture',
-          collapsable: false,
-          children: [ 
-            '/platform/archdoc/motivation.md',
-            '/platform/archdoc/introduction.md',
-            '/platform/archdoc/comparison-of-blockchains.md',
-            '/platform/archdoc/architecture-overview.md',
-            '/platform/archdoc/node-and-blockchain-semantics.md',
-            '/platform/archdoc/contract-design.md',
-            '/platform/archdoc/namespace-logic.md',
-            '/platform/archdoc/execution-model.md',
-            '/platform/archdoc/storage-and-query.md',
-            '/platform/archdoc/casper-consensus-algorithm.md',
-            '/platform/archdoc/applications.md',
-            '/platform/archdoc/references.md',
-          ],
+        { text: "Coop Members",
+         items: [
+           { text: "Become a member", link: "/ecosystem/rchain-coop.md" },
+           { text: "Weekly Community Debrief", link: "https://www.rchain.coop/blog/category/community-debriefs/" },
+           { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
+           { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
+           { text: "Bylaws and Board Meetings", link: "https://github.com/rchain/board" },
+         ]
+        },
+        { text: "Supporters",
+         items: [
+           { text: "Pre-order REV with RHOC", link: "/ecosystem/rhoc-rev.md" },
+         ],
         },
       ],
     },

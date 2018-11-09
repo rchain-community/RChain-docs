@@ -1,7 +1,4 @@
-+++
-
-+++
-# RHOC/REV Swap
+# Pre-Order REV with RHOC
 
 **Definitions:**
 
@@ -16,7 +13,7 @@ Every 1 RHOC token can thus be thought of as a 'coupon' for claiming 1 REV token
 After the snapshot, RHOC should be expected to be valueless.
 
 ::: danger More Information
-The single "Source of Truth" on all matters related to the RHOC/REV swap, is [https://developer.rchain.coop/token-swap](https://developer.rchain.coop/token-swap "https://developer.rchain.coop/token-swap"). Go there for more information.
+The single "Source of Truth" on all matters related to the RHOC/REV swap is [https://developer.rchain.coop/token-swap](https://developer.rchain.coop/token-swap "https://developer.rchain.coop/token-swap"). Go there for more information.
 :::
 
 ### Join the conversation

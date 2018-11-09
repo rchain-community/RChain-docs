@@ -13,7 +13,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Roadmap", link: "/platform/roadmap.md" },
-      { text: "Team", link: "/ecosystem/team.md" },
+      { text: "Team*", link: "/ecosystem/team.md" },
       { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Events", link: "/ecosystem/conferences.md" },
       { text: 'Community', items: [
@@ -26,7 +26,7 @@ module.exports = {
       ]},
       { text: "About",
        items: [
-         { text: 'What is RChain?', link: 'introduction' },
+         { text: 'What is RChain?', link: '/introduction' },
          { text: "Privacy Policy", link: "https://github.com/rchain/legaldocs/blob/master/Form%20of%20Privacy%20Policy.pdf" }
          ],
       },
@@ -89,24 +89,24 @@ module.exports = {
           'platform/build',
           // combine with build? 'platform/examples',
           // too rah-rah? 'platform/rho-revolution',
-          'platform/casper-pos',
           // platform/features
-          'platform/research',
-          // combine with research 'platform/ladl',
           'platform/rnode',
           // combine with rnode: 'platform/rspace',
+          'platform/research',
+          // combined with research: 'platform/casper-pos',
+          // combine with research 'platform/ladl',
         ]
       },
       { title: "Ecosystem",
         collapsable: false,
         children: [
-          'ecosystem/token-economics',
-          'ecosystem/state-of-the-dapps',
-          'ecosystem/rchain-coop',
-          'ecosystem/rhoc-rev',
           'ecosystem/team',
           'ecosystem/conferences',
-          'ecosystem/bounty-system',
+          'ecosystem/rchain-coop',
+          // combine with coop? 'ecosystem/bounty-system',
+          'ecosystem/token-economics',
+          'ecosystem/state-of-the-dapps',
+          'ecosystem/rhoc-rev',
         ],
       },
     ],

@@ -1,4 +1,4 @@
-# Build dApps on RChain
+# Build dApps on RChain**
 
 https://www.rchain.coop/blog/start_coding_in_rholang/
 

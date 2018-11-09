@@ -1,4 +1,4 @@
-# Meet the Team
+# Meet the Team**
 
 ## The RChain Coop
 The RChain Coop is the primary steward of both the platform and technology. To learn more about the Coop, visit [this page](/). Below find the officers of the Coop. For information on the Board Members, [go here](/the-board).

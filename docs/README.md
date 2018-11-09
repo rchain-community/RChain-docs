@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: "https://s.redditmedia.com/t5_3hrsl/styles/communityIcon_bf27nm7zbll11.jpg?fm=pjpg&s=be43a37c23bffc5e26674f6ebf334aff"
+heroImage: "https://coop-member-v1.rchain.me/wp-content/uploads/2018/04/cropped-header-background.jpg"
 actionText: Let's dive in →
 actionLink: /platform/introduction
 features:

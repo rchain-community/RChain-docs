@@ -1,7 +1,7 @@
 ---
 home: true
-actionText: Let's dive in →
-actionLink: /platform/introduction
+actionText: Get the Latest Community Debrief →
+actionLink: https://www.rchain.coop/blog/category/community-debriefs/
 features:
 - title: Scalable. Limitless.
   details: Enabled by a paradigm shift in distributed systems computing, RChain runs on the concurrent RhoVM

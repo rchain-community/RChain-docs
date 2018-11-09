@@ -46,4 +46,4 @@ meeting:
  - Venus: Rholang Features over 1000's of nodes
  - Earth: Self hosted + mobile platform over 1000's of Nodes
 
-[![LGM Roadmap 2017](../media/2017-lgm-roadmap.png)](https://youtu.be/CXA_LqsJaks?t=1089)
+[![LGM Roadmap 2017](../assets/2017-lgm-roadmap.png)](https://youtu.be/CXA_LqsJaks?t=1089)

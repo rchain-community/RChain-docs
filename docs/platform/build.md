@@ -1,4 +1,8 @@
-              /*
+# Build dApps on RChain
+
+https://www.rchain.coop/blog/start_coding_in_rholang/
+
+/*
               { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
               { text: "RChain.cloud", link: "https://rchain.cloud/" },
               { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },

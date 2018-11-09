@@ -15,7 +15,10 @@ The RCon is organised by our development partner Pyrofex.
 
 For more information, contact **Kelly Foster** at Pyrofex.
 
+## RChain Cooperative Annual Membership Meeting
 
+ - 2018: [RChain Annual Membership Meeting](https://www.rchain.coop/blog/rchain-annual-membership-meeting/) Oct 9, 2018 
+ - 2017: [The Cooperative Annual Meeting Summary](https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33) Patrick Maguire Oct 31, 2017
 
 
 ## Local meetups

@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: "https://coop-member-v1.rchain.me/wp-content/uploads/2018/04/cropped-header-background.jpg"
 actionText: Let's dive in →
 actionLink: /platform/introduction
 features:

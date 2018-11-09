@@ -29,9 +29,6 @@ module.exports = {
          { text: "Privacy Policy", link: "https://github.com/rchain/legaldocs/blob/master/Form%20of%20Privacy%20Policy.pdf" }
          ],
       },
-    ],
-
-    sidebar: {
       /*
       { text: "Platform", 
       items: [
@@ -79,7 +76,16 @@ module.exports = {
         ],
       },
 */
-       
+    ],
+
+    sidebar: [
+        ['/platform/', 'Technology'],
+        ['/ecosystem/', 'Ecosystem'],
+    ]
+  },
+};
+
+       // ******* Fodder
       // Defines "sidebar for the /platform/ section"
         /*
       '/platform/': [   
@@ -142,6 +148,7 @@ module.exports = {
 
 
       // Root / Fallback Sidebar
+      /*
       '/': [
         { text: "Developers",
             items: [
@@ -150,7 +157,7 @@ module.exports = {
               { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
               { text: "RChain.cloud", link: "https://rchain.cloud/" },
               { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },
-              */
+              *@@/
               { text: "Learn Rholang", link: "https://www.rchain.coop/learn-rholang" },
               { text: "Platform Architecture", link: "https://rchain-architecture.readthedocs.io/en/latest/" },
               { text: "Platform Development (github)", link: "https://github.com/rchain/rchain/" },
@@ -160,7 +167,7 @@ module.exports = {
          items: [
            { text: "RNode User Guide",
             link: "https://rchain.atlassian.net/wiki/spaces/CORE/pages/428376065/User+guide+for+running+RNode" } 
-           /* TODO: weekly testing */
+           // TODO: weekly testing
            ],
         },
         { text: "Coop Members",
@@ -179,5 +186,4 @@ module.exports = {
         },
       ],
     },
-  },
-};
+    */

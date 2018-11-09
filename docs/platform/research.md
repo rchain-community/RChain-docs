@@ -24,6 +24,10 @@ Those unfamiliar with the π-calculus are strongly encouraged to explore it. The
 - [The Polyadic pi-Calculus: A Tutorial](http://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-180/) –by Robin Milner
 - [Higher category models of the pi-calculus](https://arxiv.org/abs/1504.04311) —by Mike Stay &amp; Lucius Gregory Meredith
 - [Logic as a Distributive Law (PDF)](https://arxiv.org/pdf/1610.02247v3.pdf) —by Mike Stay &amp; Lucius Gregory Meredith
+- [Contracts, Composition, and Scaling: The Rholang specification](https://developer.rchain.coop/assets/rholang-spec-0.2.pdf)  
+  Draft version 0.2 Feb 2018  
+  Lucius Gregory Meredith, Jack Pettersson, Gary Stephenson, Michael
+  Stay, Kent Shikama, Joseph Denman
 
 
 ## Casper CBC

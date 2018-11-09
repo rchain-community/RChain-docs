@@ -11,9 +11,10 @@ The RChain Coop is the primary steward of both the platform and technology. To l
 
 ### Greg Meredith
 
-![](https://www.rchain.coop/assets/leadership/rchain-team-greg-meredith-squared.jpg)
+<div class="vuer" style="display: flex; padding: 30px 0;"> <div class="avatar" style="flex:0 0 80px;"> <img src="![](https://github.com/ottermagically.png)" alt="" width="80" height="80" style="border-radius: 50%;"> </div> <div class="profile" style="padding-left: 26px; flex: 1;"> <h3 style="margin: 0;">Greg Meredith</h3> <p style="font-size: 0.84em;"><strong>President</strong> • Lucius Gregory (Greg) Meredith is the president of the RChain Cooperative. Greg is a mathematician, and the discoverer of the rho-calculus, a co-inventor of the LADL algorithm, and the inventor of the ToGL approach to graph theory. </p>  
+</div> </div>
 
-Lucius Gregory (Greg) Meredith is the president of the RChain Cooperative. Greg is a mathematician, and the discoverer of the rho-calculus, a co-inventor of the LADL algorithm, and the inventor of the ToGL approach to graph theory.
+![](https://www.rchain.coop/assets/leadership/rchain-team-greg-meredith-squared.jpg)
 
 #### 
 

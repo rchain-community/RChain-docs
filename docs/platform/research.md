@@ -2,6 +2,18 @@
 
 Much of the innovations that RChain brings to the world of blockchain and driven by fundamental breakthroughs in distributed systems programming, with the development of the Rho-calculus. Below, find an overview of the most relevant papers and sources underpinning the RChain technology.
 
+::: tip Learn More
+
+See [Intro to Design of Computational Calculi 4.1: Injecting Names
+into Rho-Calculus][intro] and more in the [Learn][] category of our
+blog.
+
+[intro]: https://www.rchain.coop/blog/intro-to-design-of-computational-calculi-4-1-injecting-names-into-rho-calculus/
+[Learn]: https://www.rchain.coop/blog/category/developer/learn/
+
+:::
+
+
 ## Rho-calculus
 ::: warning Rho-calculus
 the RChain execution model is derived from the syntax and semantics of rho-calculus. The rho-calculus is a variant of the π-calculus that was introduced in 2004 to provide the first model of concurrent computation with reflection. “Rho” stands for reflective, higher-order.
@@ -12,7 +24,6 @@ Those unfamiliar with the π-calculus are strongly encouraged to explore it. The
 - [The Polyadic pi-Calculus: A Tutorial](http://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-180/) –by Robin Milner
 - [Higher category models of the pi-calculus](https://arxiv.org/abs/1504.04311) —by Mike Stay &amp; Lucius Gregory Meredith
 - [Logic as a Distributive Law (PDF)](https://arxiv.org/pdf/1610.02247v3.pdf) —by Mike Stay &amp; Lucius Gregory Meredith
-
 
 
 ## Casper CBC

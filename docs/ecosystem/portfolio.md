@@ -2,6 +2,18 @@
 
 RChain is more than a blockchain. Through our two venture fund partners, [Reflective Ventures](https://www.reflectiveventures.io/) and [Pithia](https://www.pithia.com/), we’re building an ecosystem comprised of organizations that share our vision of creating a better world. Below are the companies you’ll soon experience on the RChain platform.
 
+::: tip Spotlight
+
+See [Spotlight blog items][spot] on [proof][], [lifeid][], [swytch][],
+and more.
+
+[spot]: https://www.rchain.coop/blog/category/ecosystem/spotlight/
+[proof]: https://www.rchain.coop/blog/rcast-3-fake-news-and-the-future-of-truth-with-chris-young-of-proof/
+[swytch]: https://www.rchain.coop/blog/rcast-2-with-evan-caron-of-swytch/
+[lifeid]: https://www.rchain.coop/blog/rcast-1-identity-unchained/
+
+:::
+
 <style>
 #companySection img { width: 30%; height: auto }
 </style>

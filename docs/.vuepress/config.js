@@ -101,11 +101,11 @@ module.exports = {
         collapsable: false,
         children: [
           'ecosystem/team',
+          'ecosystem/portfolio',
           'ecosystem/conferences',
           'ecosystem/rchain-coop',
           // combine with coop? 'ecosystem/bounty-system',
           'ecosystem/token-economics',
-          'ecosystem/portfolio',
           'ecosystem/rhoc-rev',
         ],
       },

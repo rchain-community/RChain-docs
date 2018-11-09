@@ -34,6 +34,17 @@ Casper is a family of Proof of Stake consensus protocols, developed in collabora
 - [The History of Casper (Medium series)](https://medium.com/@Vlad_Zamfir/the-history-of-casper-part-1-59233819c9a9) —by Vlad Zamfir
 
 
-## RChain Platform Architecture**
+## RChain Platform Architecture
 
-_abstract, cite arch doc here?_
+ - [RChain Platform Architecture][archdoc] by Ed Eykholt, Lucius Meredith, Joseph Denman July 2017
+
+**Abstract**: The RChain Platform Architecture description provides a
+high-level blueprint of the RChain decentralized, economically
+sustainable public compute infrastructure. While the RChain design is
+inspired by that of earlier blockchains, it also realizes decades of
+research across the fields of concurrent and distributed computation,
+mathematics, and programming language design. The platform includes a
+modular, end-to-end design that commits to correct-by-construction
+software and industrial extensibility.
+
+[archdoc]: https://rchain-architecture.readthedocs.io/en/latest/

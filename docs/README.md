@@ -8,7 +8,7 @@ features:
 - title: Secure.
   details: Casper proof-of-stake ensures an economically secured platform. Smart contracts benefit from object capability security and formal verification.
 - title: Sustainable.
-  details: Unlike Bitcoin and Ethereum that get _less_ efficient as they grow, Casper proof-of-stake requires no wasteful computation.
-footer: Copyright © 2018-present RChain Coop | [Privacy Policy](https://github.com/rchain/legaldocs/blob/master/Form%20of%20Privacy%20Policy.pdf)
+  details: Unlike Bitcoin and Ethereum that get less efficient as they grow, Casper proof-of-stake requires no wasteful computation.
+footer: Copyright © 2018 RChain Cooperative
 ---
 

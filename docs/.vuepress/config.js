@@ -105,7 +105,7 @@ module.exports = {
           'ecosystem/rchain-coop',
           // combine with coop? 'ecosystem/bounty-system',
           'ecosystem/token-economics',
-          'ecosystem/state-of-the-dapps',
+          'ecosystem/portfolio',
           'ecosystem/rhoc-rev',
         ],
       },

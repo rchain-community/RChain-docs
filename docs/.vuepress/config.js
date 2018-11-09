@@ -1,6 +1,6 @@
 module.exports = {
   title: "RChain",
-  description: "The concurrent blockchain",
+  description: "Scalable. Secure. Sustainable.",
   markdown: {
     anchor: { permalink: false },
   },

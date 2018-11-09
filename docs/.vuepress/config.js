@@ -78,10 +78,68 @@ module.exports = {
 */
     ],
 
+
     sidebar: [
-        ['/platform/', 'Technology'],
-        ['/ecosystem/', 'Ecosystem'],
-    ]
+      { title: "Technology Platform",
+        collapsable: false,
+        children: [
+          'platform/',
+          'platform/examples',
+          'platform/ladl',
+          'platform/rho-revolution',
+          'platform/build.md',
+          'platform/casper-pos',
+          // platform/features
+          'platform/research',
+          'platform/rspace',
+          'platform/rnode',
+        ]
+      },
+      { title: "Ecosystem",
+        collapsable: false,
+        children: [
+          'ecosystem/token-economics',
+          'ecosystem/state-of-the-dapps',
+          'ecosystem/rchain-coop',
+          'ecosystem/rhoc-rev',
+          'ecosystem/team',
+          'ecosystem/conferences',
+          'ecosystem/bounty-system',
+          'ecosystem/roadmap',
+        ],
+      },
+    ],
+      // Root / Fallback Sidebar
+      /*
+      '/': [
+        { text: "Coop Members",
+         items: [
+           { text: "Become a member", link: "/ecosystem/rchain-coop.md" },
+           { text: "Weekly Community Debrief", link: "https://www.rchain.coop/blog/category/community-debriefs/" },
+           { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
+           { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
+           { text: "Bylaws and Board Meetings", link: "https://github.com/rchain/board" },
+         ]
+        },
+        { text: "Supporters",
+         items: [
+           { text: "Pre-order REV with RHOC", link: "/ecosystem/rhoc-rev.md" },
+         ],
+        },
+      ],
+    },
+    */
+    /*
+    sidebar: [
+      {
+        title: 'Halp!',
+        collapsable: false,
+        children: [
+          '/platform/README.md',
+        ],
+      }
+    ],
+*/
   },
 };
 
@@ -145,45 +203,3 @@ module.exports = {
       //     ],
       //   },
       // ],
-
-
-      // Root / Fallback Sidebar
-      /*
-      '/': [
-        { text: "Developers",
-            items: [
-              { text: "Build dApps on RChain", link: "/API-reference/casper-pos.md" },
-              /*
-              { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
-              { text: "RChain.cloud", link: "https://rchain.cloud/" },
-              { text: "Rholang Syntax highlighting", link: "https://github.com/rchain-community/rholang-syntax-highlighting" },
-              *@@/
-              { text: "Learn Rholang", link: "https://www.rchain.coop/learn-rholang" },
-              { text: "Platform Architecture", link: "https://rchain-architecture.readthedocs.io/en/latest/" },
-              { text: "Platform Development (github)", link: "https://github.com/rchain/rchain/" },
-            ],
-          },
-        { text: "Node Operators (Validators)",
-         items: [
-           { text: "RNode User Guide",
-            link: "https://rchain.atlassian.net/wiki/spaces/CORE/pages/428376065/User+guide+for+running+RNode" } 
-           // TODO: weekly testing
-           ],
-        },
-        { text: "Coop Members",
-         items: [
-           { text: "Become a member", link: "/ecosystem/rchain-coop.md" },
-           { text: "Weekly Community Debrief", link: "https://www.rchain.coop/blog/category/community-debriefs/" },
-           { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
-           { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
-           { text: "Bylaws and Board Meetings", link: "https://github.com/rchain/board" },
-         ]
-        },
-        { text: "Supporters",
-         items: [
-           { text: "Pre-order REV with RHOC", link: "/ecosystem/rhoc-rev.md" },
-         ],
-        },
-      ],
-    },
-    */

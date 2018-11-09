@@ -3,12 +3,12 @@ home: true
 actionText: Get the Latest Community Debrief →
 actionLink: https://www.rchain.coop/blog/category/community-debriefs/
 features:
-- title: Scalable. Limitless.
-  details: Enabled by a paradigm shift in distributed systems computing, RChain runs on the concurrent RhoVM
-- title: Truly Decentralised
-  details: Enjoy efficiency and scale, without sacrificing the true essence of a blockchain — true decentralisation
-- title: Dependable & Efficient
-  details: Scale efficiently through namespaces. Secure & robust through formal verification of smart contract 
+- title: Scalable.
+  details: RChain runs on the concurrent RhoVM. Why should buying tea in Nairobi wait for stock transactions in New York?
+- title: Secure.
+  details: Casper proof-of-stake ensures an economically secured platform. Smart contracts benefit from object capability security and formal verification.
+- title: Sustainable.
+  details: Unlike Bitcoin and Ethereum that get _less_ efficient as they grow, Casper proof-of-stake requires no wasteful computation.
 footer: MIT licenced | Copyright © 2018-present RChain Coop
 ---
 

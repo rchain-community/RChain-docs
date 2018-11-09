@@ -8,13 +8,6 @@ Looking for the slides or presentations from a previous RCon?
 Find here an [index of all previous RCons](/ecosystem/conferences).
 :::
 
-### RCon4 (March 2019)
-The next upcoming RCon will be held in the 2nd half of March 2019, somewhere in the United States. Local and speakers are still to be announced.
-
-The RCon is organised by our development partner Pyrofex.
-
-For more information, contact **Kelly Foster** at Pyrofex.
-
 ## RChain Cooperative Annual Membership Meeting
 
  - 2018: [RChain Annual Membership Meeting](https://www.rchain.coop/blog/rchain-annual-membership-meeting/) Oct 9, 2018 

@@ -12,7 +12,7 @@ module.exports = {
 
   themeConfig: {
     nav: [
-      { text: "Roadmap", link: "/ecosystem/roadmap.md" },
+      { text: "Roadmap", link: "/platform/roadmap.md" },
       { text: "Team", link: "/ecosystem/team.md" },
       { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Events", link: "/ecosystem/conferences.md" },

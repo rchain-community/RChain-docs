@@ -10,10 +10,27 @@ module.exports = {
     ['link', { rel: 'icon', href: 'https://www.rchain.coop/assets/favicon-red.png' }],
   ],
 
-
-
   themeConfig: {
     nav: [
+      { text: "Blog", link: "https://www.rchain.coop/blog" },
+      { text: "Roadmap", link: "/ecosystem/roadmap.md" },
+      { text: 'Community', items: [
+        { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
+        { text: "Telegram", link: "https://t.me/rchain_coop" },
+        { text: "Github", link: "https://github.com/rchain/" },
+        { text: "Bounty Program", link: "/ecosystem/bounty-system.md" },
+      ]},
+      { text: "About",
+       items: [
+         { text: "Privacy Policy", link: "https://github.com/rchain/legaldocs/blob/master/Form%20of%20Privacy%20Policy.pdf" }
+         ],
+      },
+    ],
+
+
+
+    sidebar: { 
+/*
       { text: "Platform", 
       items: [
           { text: "Overview", link: "/platform/introduction.md" },
@@ -41,12 +58,6 @@ module.exports = {
             { text: "Team", link: "/ecosystem/team.md" },
             { text: "RHOC/REV swap", link: "/ecosystem/rhoc-rev-swap.md" },
           ]},
-          { text: 'Community', items: [
-            { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
-            { text: "Telegram", link: "https://t.me/rchain_coop" },
-            { text: "Github", link: "https://github.com/rchain/" },
-            { text: "Bounty Program", link: "/ecosystem/bounty-system.md" },
-          ]},
           { text: 'Tooling', items: [
             { text: "Cryptofex IDE", link: "https://cryptofex.io/" },
             { text: "RChain.cloud", link: "https://rchain.cloud/" },
@@ -55,9 +66,7 @@ module.exports = {
           ]},
           { text: 'News', items: [
             { text: "Weekly News", link: "/API-reference/rnode.md" },
-            { text: "Roadmap", link: "/ecosystem/roadmap.md" },
             { text: "Conferences & Meetups", link: "/ecosystem/conferences.md" },
-            { text: "Blog", link: "https://www.rchain.coop/blog" },
             { text: "Jobs", link: "/ecosystem/jobs.md" },
           ]},
           { text: 'Partners', items: [
@@ -84,11 +93,8 @@ module.exports = {
           { text: "日本語", link: "/API-reference/rspace.md" },
         ],
       },
-    ],
-
-
-
-    sidebar: { 
+*/
+       
       // Defines "sidebar for the /platform/ section"
       '/platform/': [   
         ['/platform/introduction.md', 'Introduction'],

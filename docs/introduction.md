@@ -1,4 +1,4 @@
-# What is RChain?
+# What is RChain?**
 
 ::: tip Purpose
 RChain is a general-purpose smart contracting platform and blockchain. It's aim is to provide a global, distributed and decentralised compute utility with limitless scalability. 

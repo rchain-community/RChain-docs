@@ -23,11 +23,13 @@
 [r013]: https://medium.com/rchain-cooperative/rchain-node-version-0-1-3-released-ede6cb2d57f7
 [r01]: https://medium.com/rchain-cooperative/rchain-node-hello-v0-1-released-98d255a9567d
 
-## The Flight to Mercury
+## Mainnet Plans and Updates
 
 The Mercury release is planned for Q1 2019. [The Flight to
 Mercury][ftm] shows large milestones in the project, subject to
-change. [Development Team Updates][dtu] are given in each [weekly
+change.
+
+[Development Team Updates][dtu] are given in each [weekly
 community debrief][wcd].
 
 

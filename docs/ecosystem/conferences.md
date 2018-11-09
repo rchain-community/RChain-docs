@@ -19,10 +19,14 @@ the heartbeat of RChain since Nov 16, 2016:
   - [Community Debriefs](https://blog.rchain.coop/category/community/community-debriefs/) category in the [RChain Blog](https://blog.rchain.coop/)
   - [Index of topics for #26 to #94](https://github.com/rchain/bounties/wiki/Weekly-Debrief-Index)
 
-## RChain Cooperative Annual Membership Meeting
 
- - 2018: [RChain Annual Membership Meeting](https://www.rchain.coop/blog/rchain-annual-membership-meeting/) Oct 9, 2018
- - 2017: [The Cooperative Annual Meeting Summary](https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33) Patrick Maguire Oct 31, 2017
+## Annual Membership Meeting
+
+ - 2018: Oct 24 in Seattle
+   - [RChain 2018 Election Results](https://www.rchain.coop/blog/rchain-2018-election-results/) Oct 26, 2018
+   - [RChain Annual Membership Meeting](https://www.rchain.coop/blog/rchain-annual-membership-meeting/) Oct 9, 2018
+ - 2017: Oct 24 in Seattle
+   - [The Cooperative Annual Meeting Summary](https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33) Oct 31, 2017
 
 
 ## Developer Conferences
@@ -43,7 +47,7 @@ In Feb 2018, we held a governance forum in Seattle, WA, USA.
  - [Governance Forum recorded sessions](https://www.youtube.com/watch?v=dFV28lJFve8&list=PLf2bbiic5ZjCL9Lfykzy3ag47bCZVM75E)
 
 
-## Local meetups
+## Local Meetups
 RChain members often meet up in a local setting. Below, find an index of meetups.
 
 ::: tip Meetups Discord Channel

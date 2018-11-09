@@ -13,7 +13,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Roadmap", link: "/platform/roadmap.md" },
-      { text: "Team*", link: "/ecosystem/team.md" },
+      { text: "Team", link: "/ecosystem/team.md" },
       { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Events", link: "/ecosystem/conferences.md" },
       { text: 'Community', items: [
@@ -113,15 +113,6 @@ module.exports = {
       // Root / Fallback Sidebar
       /*
       '/': [
-        { text: "Coop Members",
-         items: [
-           { text: "Become a member", link: "/ecosystem/rchain-coop.md" },
-           { text: "Weekly Community Debrief", link: "https://www.rchain.coop/blog/category/community-debriefs/" },
-           { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },
-           { text: "Calendar", link: "https://calendar.google.com/calendar/embed?src=2cj152c9nidh6glpr1d5g4eq28%40group.calendar.google.com&ctz=America%2FChicago" },
-           { text: "Bylaws and Board Meetings", link: "https://github.com/rchain/board" },
-         ]
-        },
         { text: "Supporters",
          items: [
            { text: "Pre-order REV with RHOC", link: "/ecosystem/rhoc-rev.md" },

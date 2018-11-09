@@ -21,7 +21,7 @@ The most significant technological differentiator between RChain and other block
 
 ### Governance
 
-RChain aims to built it's technology openly, together. The main steward of the RChain platform is the **RChain Cooperative**, incorporated in Washington State, USA. The RChain Coop (which we'll often refer to as simply "the Coop") has **members**. Members make governance decisions through voting and the election of board members and other key players. As of October 2018, the Coop has over 2000 members from across the globe.
+RChain aims to built it's technology openly, together. The main steward of the RChain platform is the **RChain Cooperative**, incorporated in Washington State, USA. The RChain Coop (which we'll often refer to as simply "the Coop") has **members**. Members make governance decisions through voting and the election of board members and other key players. As of October 2018, the Coop has over 1600 members from across the globe.
 
 To become a member, [go here](https://www.rchain.coop/community). To become a member one has to pay a one-time membership fee of $20, and pass KYC verification.   
 

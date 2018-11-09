@@ -1,13 +1,13 @@
 # Roadmap and Releases
 
-RChain is an open source software project: fork
-[rchain/rchain](https://github.com/rchain/rchain/) on GitHub.
+::: tip RChain is Open Source
+ - Fork [rchain/rchain](https://github.com/rchain/rchain/) on GitHub.
+ - Visit [developer.rchain.coop](https://developer.rchain.coop).
+:::
 
 ## RNode Releases
 
- - Oct 2018: [RNode v0.7.1: validator bonding, cost accounting, name registry, and Rholang cheat sheet][r071]
-   - Get started with RNode v0.7.1 at [developer.rchain.coop](https://developer.rchain.coop).
-   - [github release](https://github.com/rchain/rchain/releases/tag/v0.7.1) 1977b93
+ - Oct 2018: [RNode v0.7.1: validator bonding, cost accounting, name registry, and Rholang cheat sheet][r071] <small>1977b93</small>
  - Aug 2018: [RNode v0.6.1 supports launch of the RChain test net][r061]
  - Jul 2018: [RNode v0.5.1 offers all features needed for dApp developers to write and transact smart contracts on the platform][r051]
  - Jun 2018: [RNode v0.4.1 introduces sending Rholang smart contracts across the network][r041]

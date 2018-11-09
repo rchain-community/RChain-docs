@@ -2,7 +2,7 @@ module.exports = {
   title: "RChain",
   description: "Scalable. Secure. Sustainable.",
   markdown: {
-    anchor: { permalink: false },
+    // anchor: { permalink: false },
   },
 
   // Insert stuff in global <head>. More info: https://vuepress.vuejs.org/config/#title

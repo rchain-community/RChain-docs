@@ -37,21 +37,6 @@ module.exports = {
           { text: "Features", link: "/platform/features/scalability.md" },
         ],
       },
-      { text: "Ecosystem",
-        items: [
-          { text: 'News', items: [
-            { text: "Weekly News", link: "/API-reference/rnode.md" },
-            { text: "Jobs", link: "/ecosystem/jobs.md" },
-          ]},
-          { text: 'Partners', items: [
-            { text: "Pyrofex", link: "https://pyrofex.net" },
-            { text: "Pithia", link: "/API-reference/rspace.md" },
-            { text: "Reflective", link: "https://www.reflectiveventures.io/" },
-            { text: "DApps portfolio", link: "https://www.rchain.coop/portfolio" },  // This one 
-            // { text: "RCHain 'State of the DApps'", link: "/ecosystem/state-of-the-dapps.md" },
-          ]},
-        ],
-      },
       { text: "Translations",
         items: [
           { text: "English", link: "/" },
@@ -68,14 +53,10 @@ module.exports = {
         children: [
           'platform/roadmap',
           'platform/rholang',
-          // combine with build? 'platform/examples',
           // too rah-rah? 'platform/rho-revolution',
           // platform/features
           'platform/rnode',
-          // combine with rnode: 'platform/rspace',
           'platform/research',
-          // combined with research: 'platform/casper-pos',
-          // combine with research 'platform/ladl',
         ]
       },
       { title: "Ecosystem",
@@ -91,88 +72,16 @@ module.exports = {
         ],
       },
     ],
-      // Root / Fallback Sidebar
-      /*
-      '/': [
-        { text: "Supporters",
-         items: [
-           { text: "Pre-order REV with RHOC", link: "/ecosystem/rhoc-rev.md" },
-         ],
-        },
-      ],
-    },
-    */
-    /*
-    sidebar: [
-      {
-        title: 'Halp!',
-        collapsable: false,
-        children: [
-          '/platform/README.md',
-        ],
-      }
-    ],
-*/
   },
 };
 
        // ******* Fodder
       // Defines "sidebar for the /platform/ section"
         /*
-      '/platform/': [   
-        ['/platform/introduction.md', 'Introduction'],
-        '/platform/rho-revolution.md',
-        {
-          title: 'Features',
-          collapsable: false,
           children: [ 
             '/platform/features/scalability.md',
             '/platform/features/efficiency.md',
             '/platform/features/dependability.md',
             '/platform/features/decentralisation.md',
           ],
-        },
-        {
-          title: 'Architecture',
-          collapsable: false,
-          children: [ 
-            '/platform/archdoc/motivation.md',
-            '/platform/archdoc/introduction.md',
-            '/platform/archdoc/comparison-of-blockchains.md',
-            '/platform/archdoc/architecture-overview.md',
-            '/platform/archdoc/node-and-blockchain-semantics.md',
-            '/platform/archdoc/contract-design.md',
-            '/platform/archdoc/namespace-logic.md',
-            '/platform/archdoc/execution-model.md',
-            '/platform/archdoc/storage-and-query.md',
-            '/platform/archdoc/casper-consensus-algorithm.md',
-            '/platform/archdoc/applications.md',
-            '/platform/archdoc/references.md',
-          ],
-        },
-        '/platform/research',
-      ],
       */
-
-
-      // '/rholang/': [   // Defines "sidebar for the /Rholang/ section"
-      //   ['/platform/introduction.md', 'Introduction'],
-      //   '/platform/rho-revolution.md',
-      //   {
-      //     title: 'Features',
-      //     collapsable: false,
-      //     children: [ 
-      //       '/platform/platform/scalability.md',
-      //       '/platform/platform/efficiency.md',
-      //       '/platform/platform/dependability.md',
-      //       '/platform/platform/decentralisation.md',
-      //     ],
-      //   },
-      //   {
-      //     title: 'Architecture',
-      //     collapsable: false,
-      //     children: [ 
-      //       '/platform/archdoc/introduction.md',
-      //     ],
-      //   },
-      // ],

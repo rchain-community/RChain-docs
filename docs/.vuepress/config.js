@@ -79,14 +79,13 @@ module.exports = {
 */
     ],
 
-
     sidebar: [
       'introduction',
       { title: "Technology Platform",
         collapsable: false,
         children: [
           'platform/roadmap',
-          'platform/build',
+          'platform/rholang',
           // combine with build? 'platform/examples',
           // too rah-rah? 'platform/rho-revolution',
           // platform/features

@@ -26,9 +26,14 @@
 ## The Flight to Mercury
 
 The Mercury release is planned for Q1 2019. [The Flight to
-Mercury](https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/The+Flight+to+Mercury)
-shows large milestones in the project.
+Mercury][ftm] shows large milestones in the project, subject to
+change. [Development Team Updates][dtu] are given in each [weekly
+community debrief][wcd].
 
+
+[ftm]: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/The+Flight+to+Mercury
+[dtu]: https://rchain.atlassian.net/wiki/spaces/DOC/pages/177045583/Development+Team+Updates
+[wcd]: https://www.rchain.coop/blog/category/community-debriefs/
 [![Mercury Milestones](https://rchain.atlassian.net/wiki/download/attachments/105709609/20180828%20RChain%20Mercury%20roadmap.png?version=1&modificationDate=1535582481644&cacheVersion=1&api=v2)](https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/The+Flight+to+Mercury)
 
 ## Mercury, Venus, Earth, and beyond

@@ -1,4 +1,7 @@
-# Roadmap
+# Roadmap and Releases
+
+RChain is an open source software project: fork
+[rchain/rchain](https://github.com/rchain/rchain/) on GitHub.
 
 ## RNode Releases
 

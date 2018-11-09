@@ -59,3 +59,18 @@ Important governance documents are archived on GitHub in the
 The membership of the cooperative has an [annual
 meeting](conferences.md#annual-membership-meeting) to elect the board
 of directors and conduct other items of business.
+
+
+## Cooperative Principles
+
+RChain follows the [principles of the International Co-operative Alliance][cp]:
+
+1. Voluntary and Open Membership
+2. Democratic Member Control
+3. Member Economic Participation
+4. Autonomy and Independence
+5. Education, Training, and Information
+6. Co-operation Among Co-operatives
+7. Concern for Community
+
+[cp]: https://www.ica.coop/en/cooperatives/cooperative-identity

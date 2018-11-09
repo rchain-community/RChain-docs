@@ -33,30 +33,12 @@ module.exports = {
       /*
       { text: "Platform", 
       items: [
-          { text: "Overview", link: "/platform/introduction.md" },
           { text: "Rholang", link: "/platform/rho-revolution.md" },
           { text: "Features", link: "/platform/features/scalability.md" },
-          { text: "Research", link: "/platform/research.md" },
-        ],
-      },
-      { text: "Rholang", link: "/rholang/overview.md" },
-      { text: "API reference",
-        items: [
-          { text: "RNode", link: "/API-reference/rnode.md" },
-          { text: "RSpace", link: "/API-reference/rspace.md" },
-          { text: "Casper POS", link: "/API-reference/casper-pos.md" },
-          { text: "LADL", link: "/API-reference/ladl.md" },
         ],
       },
       { text: "Ecosystem",
         items: [
-          { text: 'Governance', items: [
-            { text: "Philosophy", link: "/ecosystem/philosophy.md" },
-            { text: "Token Economics", link: "/ecosystem/token-economics.md" },
-          ]},
-          { text: 'Tooling', items: [
-            { text: "Block Explorers", link: "/" },
-          ]},
           { text: 'News', items: [
             { text: "Weekly News", link: "/API-reference/rnode.md" },
             { text: "Jobs", link: "/ecosystem/jobs.md" },

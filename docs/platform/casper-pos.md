@@ -1,1 +1,0 @@
-# Casper consensus protocol

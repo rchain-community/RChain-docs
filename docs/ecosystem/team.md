@@ -14,55 +14,23 @@ Nov 7, 2018.
 Directors are elected at the [annual meeting of the
 cooperative](conferences.md#annual-membership-meeting):
 
-<!-- ISSUE: factor out vuejs component? -->
-<div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
-<img src="../assets/leadership/rchain-team-greg-meredith-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
-</div>
-<div class="profile" style="padding-left: 26px; flex: 1;">
-<h3 style="margin: 0;">
-Greg Meredith
-•
-<a href="https://twitter.com/leithaus">
-<img alt="@leithaus" src="../assets/twitter-black.png"
-     width="20" height="20"/>
-</a>
-<a href="https://www.linkedin.com/in/lucius-meredith-547645/">
-<img alt="LinkedIn" src="../assets/linkedin-black.png"
-     width="20" height="20"/>
-</a>
-</h3>
-
-<p style="font-size: 0.84em;">Lucius Gregory (Greg) Meredith is the
+<div><photo-bio name="Greg Meredith"
+  twitter="leithaus"
+  linkedin="lucius-meredith-547645"
+  asset="leadership/rchain-team-greg-meredith-squared.jpg">
+Lucius Gregory (Greg) Meredith is the
 president of the RChain Cooperative. Greg is a mathematician, and the
 discoverer of the rho-calculus, a co-inventor of the LADL algorithm,
-and the inventor of the ToGL approach to graph theory.  </p>
- 
-</div>
+and the inventor of the ToGL approach to graph theory.
+</photo-bio>
 </div>
 
-
-<!-- ISSUE: factor out vuejs component? -->
-<div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
-<img src="../assets/leadership/rchain-team-kenny-rowe-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
-</div>
-<div class="profile" style="padding-left: 26px; flex: 1;">
-<h3 style="margin: 0;">
-Kenny Rowe
-•
-<a href="https://twitter.com/kennyrowe">
-<img alt="@kennyrowe" src="../assets/twitter-black.png"
-     width="20" height="20"/>
-</a>
-</h3>
-
-<p style="font-size: 0.84em;"> Holistic Technologist, lives part time
-in the future. Rchain Cooperative. MakerDAO. CoinFund. Onchain.  </p>
- 
-</div>
+<div><photo-bio name="Kenny Rowe"
+  twitter="kennyrowe"
+  asset="leadership/rchain-team-kenny-rowe-squared.jpg">
+Holistic Technologist, lives part time
+in the future. Rchain Cooperative. MakerDAO. CoinFund. Onchain.
+</photo-bio>
 </div>
 
 

@@ -7,7 +7,7 @@ features:
 - title: Scalable.
   details: Inspired by living systems, Rholang is concurrent. Why should buying tea in Nairobi wait for stock transactions in New York?
 - title: Secure.
-  details: Correct-by-construction and capability security are software engineering best practices that lead to an economically secured platform.
+  details: Correct-by-construction and capability security are software engineering best practices that help build an economically secured platform.
 - title: Sustainable.
   details: Unlike bitcoin's proof of work algorithm, which gets less efficient as it grows, Casper proof-of-stake requires no wasteful computation.
 footer: Copyright © 2018 RChain Cooperative

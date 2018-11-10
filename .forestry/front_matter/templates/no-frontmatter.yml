@@ -5,4 +5,3 @@ is_partial: false
 fields: []
 pages:
 - docs/.vuepress/tinkering.md
-- docs/rholang/rholang-with-kyle.md

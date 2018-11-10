@@ -1,4 +1,4 @@
-# Scalability
+# Scalability**
 
 ### Rholang
 Rholang wraps the Rho-calculus into a Turing-complete programming language. The language is concurrency-oriented and supports internal programmatic concurrency. As a result, RChain is partitioned (sharded) by default, resulting in a network of coordinated and parallel blockchains.

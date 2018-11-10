@@ -17,8 +17,8 @@ module.exports = {
       { text: "Blog", link: "https://www.rchain.coop/blog" },
       { text: "Events", link: "/ecosystem/conferences.md" },
       { text: 'Community', items: [
-        { text: 'Cooperative', link: 'ecosystem/rchain-coop.md' },
-        { text: 'Portfolio', link: 'ecosystem/portfolio.md' },
+        { text: 'Cooperative', link: '/ecosystem/rchain-coop.md' },
+        { text: 'Portfolio', link: '/ecosystem/portfolio.md' },
         { text: "Developer Bounties**", link: "/ecosystem/bounty-system.md" },
         { text: "YouTube", link: "https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w" },
         { text: "Discord", link: "https://discordapp.com/invite/fvY8qhx" },

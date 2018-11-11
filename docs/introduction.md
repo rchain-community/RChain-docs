@@ -1,15 +1,13 @@
 +++
 
 +++
-# What is RChain?**
+# What is RChain?
 
-::: tip Purpose
-RChain is a general-purpose smart contracting platform and blockchain. It's aim is to provide a global, distributed and decentralised compute utility with limitless scalability.
-:::
+::: tip Purpose RChain is a general-purpose smart contracting platform and blockchain. Its aim is to provide a global, distributed and decentralized compute utility with limitless scalability. :::
 
 In order to achieve this, a fundamentally different model of computation was needed. The technology that underlies RChain is the Rho-calculus, which enables concurrent computation on distributed systems. The RhoVM is at the very heart of the RChain network.
 
-Contract logic on RChain is written in the Rholang language, which represents a barebones abstraction of the Rho-calculus. The platform is secured through a Proof of Stake consensus algorithm: Casper CBC.
+Contract logic on RChain is written in the Rholang language, which represents a bare-bones abstraction of the Rho-calculus. The platform is secured through a Proof of Stake consensus algorithm: Casper CBC.
 
 ### Technology
 
@@ -19,22 +17,18 @@ The most significant technological differentiator between RChain and other block
 * **Functional** programming language that enables formal verification
 * A sophisticated system of sharding and load distribution through **namespaces**
 
-### Governance**
+### Governance
 
-RChain aims to built it's technology openly, together. The main steward of the RChain platform is the **RChain Cooperative**, incorporated in Washington State, USA. The RChain Coop (which we'll often refer to as simply "the Coop") has **members**. Members make governance decisions through voting and the election of board members and other key players. As of October 2018, the Coop has over 1600 members from across the globe.
+RChain aims to built its technology openly and together. The main steward of the RChain platform is the [**RChain Cooperative**](https://rchain-docs.netlify.com/ecosystem/rchain-coop.html#benefits-of-membership), incorporated in Washington State, USA. The RChain Coop (which we'll often refer to as simply "the Coop") has **members**. Members make governance decisions through voting, the election of board members, and other key players. As of October 2018, the Coop has over 1600 members from across the globe.
 
-\**replace with cooperative link
+To [become a member](https://www.rchain.coop/community), a one-time membership fee of $20 and KYC verification is required.
 
-To become a member, [go here](https://www.rchain.coop/community). To become a member one has to pay a one-time membership fee of $20, and pass KYC verification.
+The Coop works to be as transparent as possible. In particular, most member discussion and debate takes place in [our Discord server](https://discordapp.com/invite/fvY8qhx).
 
-The Coop tries to be as transparent as possible. In particular, a lot of member discussion and debate takes place in [our Discord server](https://discordapp.com/invite/fvY8qhx).
-
-### Economics**
+### Economics
 
 The cryptocurrency associated with the RChain blockchain is called "REV". Transaction costs are expressed in "Phlogiston". These terms can be thought of as similar to "Ether" and "Gas" on the Ethereum platform, respectively.
 
-Since consensus is achieved through PoS validators, there is no notion of 'mining' on RChain. All tokens are minted in the genesis block. Total supply of REV is xxx,xxx,xxx,xxx. **wordsmith a link to [https://github.com/rchain/reference/blob/master/finance/rhoc.md](https://github.com/rchain/reference/blob/master/finance/rhoc.md "https://github.com/rchain/reference/blob/master/finance/rhoc.md")
+Since consensus is achieved through PoS validators, there is no notion of 'mining' on RChain. All tokens are minted in the genesis block. Total supply of REV is [1,000,000,000](https://etherscan.io/token/0x168296bb09e24a88805cb9c33356536b980d3fc5). Changes in REV supply can be seen on our [Distribution](https://github.com/rchain/reference/blob/master/finance/rhoc.md) page.
 
-Anyone who wants to become a validator can learn more
-
-\**link to staking & validation
+[Becoming a validator](https://rchain-docs.netlify.com/ecosystem/token-economics.html) 

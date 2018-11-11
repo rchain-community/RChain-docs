@@ -1,8 +1,9 @@
-+++
+# Staking and Validation
 
-+++
-# Staking and Validation**
+In [Become a validator and acquire RHOC for staking](https://www.rchain.coop/blog/become-a-validator-and-acquire-rhoc-for-staking/), Kenny Rowe explains the mechanics, economics, and the process of becoming a validator.
 
-Find out more about the mechanics, economics, and the process of becoming a validator in the related [RChain Blog](https://www.rchain.coop/blog/become-a-validator-and-acquire-rhoc-for-staking/) post.
+Or watch his [staking presentation][krtalk] from RCon3, Sep 2018.
 
-Or watch the RCON3 [staking presentation](https://www.youtube.com/watch?v=VeSkk_pBdNs&index=15&list=PLf2bbiic5ZjCQPNxJhW9qdplBaizVISFf) given by board member Kenny Rowe.
+[![](../assets/staking-rcon3.png)][krtalk]
+
+[krtalk]: https://www.youtube.com/watch?v=VeSkk_pBdNs&index=15&list=PLf2bbiic5ZjCQPNxJhW9qdplBaizVISFf

@@ -10,11 +10,12 @@ Contract logic on RChain is written in the Rholang language, which represents a 
 
 ### Technology
 
-The most significant technological differentiator between RChain and other blockchain platforms is it's computational model of the Rho-calculus, which is _inherently concurrent_. Key properties that developers are excited about:
+The most significant technological differentiator between RChain and other blockchain platforms is its computational model of the [Rho-calculus](platform/research.md#rho-calculus), which is _inherently concurrent_. Key properties that developers are excited about:
 
 * **Concurrent** distributed systems programming
-* **Functional** programming language that enables formal verification
-* A sophisticated system of sharding and load distribution through **namespaces**
+* **Capability Security** to support robust composition and cooperation without vulnerability
+* **Namespaces** for sharding that scales like nature
+* **Behavioral Types** that enable formal verification
 
 ### Governance
 

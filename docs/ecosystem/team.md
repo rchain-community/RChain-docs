@@ -16,9 +16,9 @@ cooperative](conferences.md#annual-membership-meeting):
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-greg-meredith-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -45,9 +45,9 @@ and the inventor of the ToGL approach to graph theory.  </p>
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-kenny-rowe-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -68,9 +68,9 @@ in the future. Rchain Cooperative. MakerDAO. CoinFund. Onchain.  </p>
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-vlad-zamfir-squared.png"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -96,9 +96,9 @@ and blockchain sharding.  </p>
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-ian-bloom.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -125,9 +125,9 @@ Security Specialist for Fortress Technologies (now General Dynamics),
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-evan-jensen.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -160,9 +160,9 @@ clear, simple, and fair.  </p>
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-barry-cynamon-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">
@@ -185,9 +185,9 @@ face of ambiguity. </p>
 
 <!-- ISSUE: factor out vuejs component? -->
 <div class="vuer" style="display: flex; padding: 30px 0;">
-<div class="avatar" style="flex:0 0 80px;">
+<div class="avatar" style="flex:0 0 96px;">
 <img src="../assets/leadership/rchain-team-kevin-goldstein-squared.jpg"
-     alt="" width="80" height="80" style="border-radius: 50%;">
+     alt="" width="96" height="96" style="border-radius: 50%;">
 </div>
 <div class="profile" style="padding-left: 26px; flex: 1;">
 <h3 style="margin: 0;">

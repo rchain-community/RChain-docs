@@ -13,10 +13,12 @@ features:
 footer: Copyright © 2018 RChain Cooperative
 ---
 
+<div class="vidyaWrapper">
 <video width="900" height="500"
   poster="https://www.rchain.coop/assets/homepage/rchain-vidthumb-editted.png" controls="" muted="">
 <source src="https://www.rchain.coop/assets/homepage/RChainHero_V5.mp4" type="video/mp4">
 </video>
+</div>
 
 ::: tip Join the Community
 

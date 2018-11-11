@@ -24,8 +24,13 @@ RChain aims to built its technology openly and together. The main steward of the
 
 ### Economics
 
-The cryptocurrency associated with the RChain blockchain is called "REV". Transaction costs are expressed in "Phlogiston". These terms can be thought of as similar to "Ether" and "Gas" on the Ethereum platform, respectively.
+The cryptocurrency associated with the RChain blockchain is called _REV_. Transaction costs are expressed in _Phlogiston_. These terms can be thought of as similar to "Ether" and "Gas" on the Ethereum platform, respectively.
 
-Since consensus is achieved through PoS validators, there is no notion of 'mining' on RChain. All tokens are minted in the genesis block. Total supply of REV is [1,000,000,000](https://etherscan.io/token/0x168296bb09e24a88805cb9c33356536b980d3fc5). Changes in REV supply can be seen on our [Distribution](https://github.com/rchain/reference/blob/master/finance/rhoc.md) page.
+Since consensus is achieved through PoS validators, there is no notion of 'mining' on RChain.
+<!-- I think the "seniorage" stuff means this isn't true:
+All tokens are minted in the genesis block.
+-->
+Total supply of REV is [1,000,000,000](https://etherscan.io/token/0x168296bb09e24a88805cb9c33356536b980d3fc5). A [distribution of RHOC](https://github.com/rchain/reference/blob/master/finance/rhoc.md) in and around the coop is updated from time to time.
 
-[Becoming a validator](https://rchain-docs.netlify.com/ecosystem/token-economics.html) 
+[Becoming a validator](https://rchain-docs.netlify.com/ecosystem/token-economics.html)
+is the way to earn transaction fees.

@@ -1,8 +1,8 @@
 <template functional>
   <div class="vuer" style="display: flex; padding: 30px 0;">
-    <div class="avatar" style="flex:0 0 80px;">
+    <div class="avatar" style="flex:0 0 96px;">
       <img :src="require('../../assets/' + props.asset)"
-           alt="" width="80" height="80" style="border-radius: 50%;">
+           alt="" width="96" height="96" style="border-radius: 50%;">
     </div>
     <div class="profile" style="padding-left: 26px; flex: 1;">
       <h3 style="margin: 0;">

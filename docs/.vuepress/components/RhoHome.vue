@@ -1,49 +1,51 @@
 <template>
   <div>
-  <div class="home">
-    <div class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        alt="hero"
-      >
+  <div class="home" style="width: 100%;">
+    <div style="max-width: 1240px; margin: auto;">
+      <div class="hero">
+        <img
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
+          alt="hero"
+        >
 
-      <p class="description">
-        {{ data.tagline || $description }}
-      </p>
+        <p class="description">
+          {{ data.tagline || $description }}
+        </p>
 
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
-    </div>
-
-    <div
-      class="features"
-      v-if="data.features && data.features.length"
-    >
-      <div
-        class="feature"
-        v-for="(feature, index) in data.features"
-        :key="index"
-      >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <p
+          class="action"
+          v-if="data.actionText && data.actionLink"
+        >
+          <NavLink
+            class="action-button"
+            :item="actionLink"
+          />
+        </p>
       </div>
-    </div>
 
-    <Content class="custom"/>
+      <div
+        class="features"
+        v-if="data.features && data.features.length"
+      >
+        <div
+          class="feature"
+          v-for="(feature, index) in data.features"
+          :key="index"
+        >
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.details }}</p>
+        </div>
+      </div>
 
-    <div
-      class="footer"
-      v-if="data.footer"
-    >
-      {{ data.footer }}
+      <Content class="custom"/>
+
+      <div
+        class="footer"
+        v-if="data.footer"
+      >
+        {{ data.footer }}
+      </div>
     </div>
   </div>
   </div>
@@ -83,6 +85,19 @@ export default {
 </style>
 
 <style>
+.vidyaWrapper {
+  text-align: center;
+}
+
+.description {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.hero p {
+  color: #fff;
+}
+
 @media (max-width: 1200px) {
     .vidyaWrapper video {
         height: 100%;
@@ -98,7 +113,10 @@ export default {
   background-size: contain;
 }
 
+
+
 .navbar .site-name {
   display: none;
 }
+
 </style>

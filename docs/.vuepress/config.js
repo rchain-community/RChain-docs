@@ -11,6 +11,7 @@ module.exports = {
   ],
 
   themeConfig: {
+    logo: "/rchain-horizontal-logo.png",
     nav: [
       { text: "Roadmap", link: "/platform/roadmap.md" },
       { text: "Team", link: "/ecosystem/team.md" },

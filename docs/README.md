@@ -1,6 +1,5 @@
 ---
-home: true
-heroImage: https://raw.githubusercontent.com/rchain/marketing/master/branding/Social%20Banners/rchain-reddit.jpg
+layout: RhoHome
 actionText: "RNode v0.7.1: validator bonding, cost accounting, name registry, and Rholang cheat sheet →"
 actionLink: /platform/roadmap
 features:
@@ -38,9 +37,3 @@ footer: Copyright © 2018 RChain Cooperative
   - Research the [Foundations](platform/research.md) of Rho Calculus, Casper and more.
 
 :::
-
-<style>
-.hero img {
-  width: 95%
-}
-</style>

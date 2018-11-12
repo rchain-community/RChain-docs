@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://raw.githubusercontent.com/rchain/marketing/master/branding/Social%20Banners/rchain-reddit.jpg
+heroImage: https://raw.githubusercontent.com/rchain/marketing/master/branding/PNG/rchain-banner.png
 actionText: "RNode v0.7.1: validator bonding, cost accounting, name registry, and Rholang cheat sheet →"
 actionLink: /platform/roadmap
 features:

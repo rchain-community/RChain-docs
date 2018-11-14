@@ -20,7 +20,7 @@
           <NavLink
             class="action-button"
             :item="actionLink"
-            style="background-color: #c8003f; color: #fff;"
+            style="background-color: #FFC15A; color: #95002f;"
           />
         </p>
       </div>

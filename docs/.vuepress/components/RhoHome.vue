@@ -9,7 +9,7 @@
           alt="hero"
         >
 
-        <p class="description">
+        <p class="description" style="color: #fff; font-size: 2.5rem;">
           {{ data.tagline || $description }}
         </p>
 
@@ -20,6 +20,7 @@
           <NavLink
             class="action-button"
             :item="actionLink"
+            style="background-color: #c8003f; color: #fff;"
           />
         </p>
       </div>
@@ -33,8 +34,8 @@
           v-for="(feature, index) in data.features"
           :key="index"
         >
-          <h2>{{ feature.title }}</h2>
-          <p>{{ feature.details }}</p>
+          <h2 style="color: #fff; font-size: 1.6rem;">{{ feature.title }}</h2>
+          <p style="color: #fff;">{{ feature.details }}</p>
         </div>
       </div>
 
@@ -87,6 +88,7 @@ export default {
 <style>
 .vidyaWrapper {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .description {
@@ -94,15 +96,11 @@ export default {
   font-size: 2.4rem;
 }
 
-.hero p {
-  color: #fff;
-}
-
 @media (max-width: 1200px) {
-    .vidyaWrapper video {
-        height: 100%;
-        width: 100%;
-    }
+  .vidyaWrapper video {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .home {
@@ -113,7 +111,10 @@ export default {
   background-size: contain;
 }
 
-
+.content.custom {
+  max-width: 900px;
+  margin: 0 auto; 
+}
 
 .navbar .site-name {
   display: none;

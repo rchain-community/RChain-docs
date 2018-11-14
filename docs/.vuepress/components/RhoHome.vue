@@ -1,7 +1,7 @@
 <template>
   <div>
   <div class="home" style="width: 100%;">
-    <div style="max-width: 1240px; margin: auto;">
+    <div style="max-width: 1240px; margin: 200px auto;">
       <div class="hero">
         <img
           v-if="data.heroImage"
@@ -9,13 +9,14 @@
           alt="hero"
         >
 
-        <p class="description" style="color: #fff; font-size: 2.5rem;">
+        <p class="description" style="color: #fff; font-size: 5rem; margin-bottom: 100px;">
           {{ data.tagline || $description }}
         </p>
 
         <p
           class="action"
           v-if="data.actionText && data.actionLink"
+          style="margin-bottom: 100px;"
         >
           <NavLink
             class="action-button"
@@ -23,6 +24,13 @@
             style="background-color: #FFC15A; color: #95002f;"
           />
         </p>
+      </div>
+
+      <div class="vidyaWrapper">
+        <video width="900" height="500"
+          poster="https://www.rchain.coop/assets/homepage/rchain-vidthumb-editted.png" controls="" muted="">
+          <source src="https://www.rchain.coop/assets/homepage/RChainHero_V5.mp4" type="video/mp4">
+        </video>
       </div>
 
       <div
@@ -34,8 +42,8 @@
           v-for="(feature, index) in data.features"
           :key="index"
         >
-          <h2 style="color: #fff; font-size: 1.6rem;">{{ feature.title }}</h2>
-          <p style="color: #fff;">{{ feature.details }}</p>
+          <h2 style="color: #333; font-size: 1.6rem;">{{ feature.title }}</h2>
+          <p style="color: #333;">{{ feature.details }}</p>
         </div>
       </div>
 

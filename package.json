@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.2",
+    "vuepress": "^1.0.0",
     "webpack-serve": "^2.0.2"
   },
   "scripts": {
